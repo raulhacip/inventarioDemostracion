@@ -104,7 +104,7 @@ public class ElementoServiceImpl implements IElementoService {
 				elementoSearch.get().setEstado(elemento.getEstado());
 				elementoSearch.get().setFechaCompra(elemento.getFechaCompra());
 				elementoSearch.get().setValorCompra(elemento.getValorCompra());
-				elementoSearch.get().setId(elemento.getId());
+				//elementoSearch.get().setId(elemento.getId());
 				elementoSearch.get().setSerial(elemento.getSerial());
 				elementoSearch.get().calcularDepreciacion((float)0.04);
 				
